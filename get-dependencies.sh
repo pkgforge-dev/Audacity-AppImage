@@ -40,7 +40,7 @@ cat /etc/makepkg.conf
 
 git clone --depth 1 https://aur.archlinux.org/audacity-git ./audacity
 (
-	cd ./pinta
+	cd ./audacity
 	sed -i -e "s|x86_64|$ARCH|" ./PKGBUILD
 	makepkg -fs --noconfirm
 	ls -la ./
