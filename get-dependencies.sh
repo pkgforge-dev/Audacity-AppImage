@@ -16,6 +16,7 @@ pacman -Syu --noconfirm \
 	pipewire-jack     \
 	pulseaudio        \
 	pulseaudio-alsa   \
+	qt6-tools         \
 	wget              \
 	xorg-server-xvfb  \
 	zsync
