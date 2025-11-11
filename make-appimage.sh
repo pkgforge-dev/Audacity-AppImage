@@ -18,3 +18,7 @@ export OUTNAME=Audacity-"$VERSION"-anylinux-"$ARCH".AppImage
 wget --retry-connrefused --tries=30 "$SHARUN" -O ./quick-sharun
 chmod +x ./quick-sharun
 ./quick-sharun /usr/bin/audacity
+
+mkdir -p ./dist
+mv -v ./*.AppImage* ./dist
+mv -v ~/version     ./dist
