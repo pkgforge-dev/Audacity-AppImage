@@ -10,6 +10,7 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=/usr/share/icons/hicolor/128x128/apps/audacity.png
 export DESKTOP=/usr/share/applications/org.audacityteam.Audacity.desktop
+export APPNAME=Audacity
 
 # Deploy dependencies
 quick-sharun /usr/bin/audacity /usr/share/audacity*
